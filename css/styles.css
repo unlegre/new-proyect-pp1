@@ -4,5 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#A66CFF;
+   
+    font-family:'Courier New', Courier, monospace;
+   
+}
+.beatiful_cont_cards{
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+
 }
