@@ -14,3 +14,22 @@ body{
     display: inline-block;
 
 }
+.Beautiful_navbar{
+    background-color: rgba(255, 255, 255,0.7)!important;
+}
+.Beautiful_navbar div,.Beautiful_navbar ul{
+    background-color: transparent !important;
+
+}
+.beati_cont_sec_1{
+    padding: 10%;
+}
+.beati_cont_sec_1_link{
+    padding: 5%;
+}
+.beati_cont_sec_1_link a{
+    width: 200px;
+}
+.beati_cont_sec_1 hr{
+    border-top: 2px solid rgba(1,1,1,);
+}

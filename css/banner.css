@@ -19,6 +19,7 @@
     background-color: rgba(0,0, 0,0.6);
     color: #fff;
     margin: auto;
+    border-radius: 5px;
 }
 .beatiful_sombra hr{
     border-top: 1px solid #fff;
@@ -26,6 +27,7 @@
 .beatiful_sombra h1{
     font-size: 8vw;
     margin-bottom: 10px;
+    text-shadow: rgb(184, 147, 147);
 }
 .beatiful_sombra p{
     font-size: 4vw;
@@ -39,15 +41,18 @@
     position: relative;
     display: inline-block;
     color: #fff;
+ 
     text-decoration:none ;
     border: 1px solid #fff;
     padding: 1px;
     margin-bottom: 5px;
     width: 150px;
+    border-radius: 10px;
 }
 .beatiful_cont_banner_link a:hover{
     background-color: #fff;
     color: #111;
+   
 }
 .beatiful_banner_link{
     opacity: 0;
