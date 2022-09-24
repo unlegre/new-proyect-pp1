@@ -33,3 +33,10 @@ body{
 .beati_cont_sec_1 hr{
     border-top: 2px solid rgba(1,1,1,);
 }
+.slide{
+    margin: 10px;
+}
+.slide img{
+    height: 700px;
+    width: 650px;
+}

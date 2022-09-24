@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url(../img/banner.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .beatiful_sombra{
     position:absolute;
