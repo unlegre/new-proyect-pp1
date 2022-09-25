@@ -14,12 +14,12 @@
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 80px;
-    color: aqua;
-    text-shadow: 0px 0px 6px black;
+    color:#C689C6;
+    text-shadow: 2px 4px 0px #581e58;
 }
 .content-all{   
     width: 210px;
-    margin: auto;
+    margin: auto;s
     perspective: 1000px;
     position: relative;
     margin-top: 50px;

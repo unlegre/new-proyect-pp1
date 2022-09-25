@@ -4,15 +4,24 @@
     box-sizing: border-box;
 }
 body{
-   
     font-family:'Courier New', Courier, monospace;
-   
+    background-color:#FFD1D1 !important;
 }
 .beatiful_cont_cards{
     margin: 15px;
     position: relative;
     display: inline-block;
 
+}
+h1{
+    color: #C689C6;
+}
+p{
+    color: #c26ca4;
+}
+
+h3{
+    color: #AEBDCA;
 }
 .Beautiful_navbar{
     background-color: rgba(255, 255, 255,0.7)!important;
@@ -33,10 +42,49 @@ body{
 .beati_cont_sec_1 hr{
     border-top: 2px solid rgba(1,1,1,);
 }
-.slide{
-    margin: 10px;
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
 }
-.slide img{
-    height: 700px;
-    width: 650px;
+.icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+.icon:hover{
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #1877f2;
+}
+.icon:hover:nth-child(2){
+    background-color: #e60073;
+    box-shadow: 0 0 20px #e60073;
+}
+.icon:hover:nth-child(3){
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366;
+}
+.icon:hover:nth-child(4){
+    background-color: #1da1f2;
+    box-shadow: 0 0 20px #1da1f2;
+}
+.icon i{
+    color: #AEBDCA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+svg circle{
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+.icon:hover circle{
+    stroke-dasharray: 220;
 }
