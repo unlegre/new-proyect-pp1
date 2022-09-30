@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family:'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:#FFD1D1 !important;
 }
 .beatiful_cont_cards{
@@ -21,15 +21,24 @@ p{
 }
 
 h3{
-    color: #AEBDCA;
+    color: #74a2ca;
+    text-align: center;
 }
+.btn-primary{
+    background-color: #C689C6 !important;
+   
+}
+
 .Beautiful_navbar{
     background-color: rgba(255, 255, 255,0.7)!important;
 }
 .Beautiful_navbar div,.Beautiful_navbar ul{
     background-color: transparent !important;
-
 }
+.Beautiful_navbar{
+    bor
+}
+
 .beati_cont_sec_1{
     padding: 10%;
 }
