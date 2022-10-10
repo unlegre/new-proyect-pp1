@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#FFD1D1 !important;
+    background-color:#FFE3E1 !important;
+   
 }
 .beatiful_cont_cards{
     margin: 15px;
@@ -17,12 +17,16 @@ h1{
     color: #C689C6;
 }
 p{
-    color: #c26ca4;
+    color: #b1217e;
+    text-align: center;
 }
 
 h3{
     color: #74a2ca;
     text-align: center;
+}
+.p_f{
+    color: #74a2ca;
 }
 .btn-primary{
     background-color: #C689C6 !important;
@@ -30,13 +34,10 @@ h3{
 }
 
 .Beautiful_navbar{
-    background-color: rgba(255, 255, 255,0.7)!important;
+    background-color: rgba(184, 132, 132, 0.7)!important;
 }
 .Beautiful_navbar div,.Beautiful_navbar ul{
     background-color: transparent !important;
-}
-.Beautiful_navbar{
-    bor
 }
 
 .beati_cont_sec_1{
@@ -51,12 +52,157 @@ h3{
 .beati_cont_sec_1 hr{
     border-top: 2px solid rgba(1,1,1,);
 }
+
+/*secion 3 contenedores*/
+.col{
+    padding: 20px;
+}
+
+
+
+/*formulario*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/fondo_negro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.container-form{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+}
+.welcome-back{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.message{
+    padding: 1rem;
+}
+.message h3{
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+.message button{
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #e60073;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #FFD1D1;
+}
+.message button:hover{
+    background-color: #f84fa4;
+}
+.formulario{
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(51, 51, 51, 0.602);
+    text-align: center;
+}
+
+.create-account{
+    padding: 2.7rem;
+    font-size: 1.7rem;
+}
+.iconos{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.border-icon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding:1.5rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font: size 1.5rem ;
+    transition: all .3s ease-in; 
+}
+.border-icon:hover{
+    background-color: #7322be;
+    cursor: pointer;
+}
+.cuenta-gratis{
+    padding: 2rem 0;
+}
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: rgb(245, 35, 182) ;
+}
+
+.formulario input[type="button"]{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255); /*color del botom form*/
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: rgb(85, 76, 76);
+}
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.sign-in.active {
+    opacity: 1;
+    visibility: visible; 
+}
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+/*footer*/
 footer{
     width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     cursor: pointer;
+    background-color: #bb7d9c;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .icon{
     position: relative;
